@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">خدووم هووم</string>
+    <string name="splash_describ">..... خدوم هوم دائما فى جيبك</string>
+    <string name="splash_title">مرحبا بك فى خدوم هوم</string>
+
+
+
+    <string name="open_gps_msg">قم بفتح مزود الاحداثيات</string>
+    <string name="yes_gps_btn">نعم</string>
+    <string name="no_gps_btn">لا</string>
+    <string name="plz_wait">من فضلك انتظر</string>
+
+    <string name="select_img">اختر صوره</string>
+    <string name="ok_dialog">موافقه</string>
+
+
+    <string name="lang_str">اللغه</string>
+
+    <string name="select">اختيار</string>
+    <string name="user_type">مستخدم</string>
+    <string name="technical_type">فنى</string>
+    <string name="provider_type">مزود خدمة</string>
+    <string name="explain_provider_type">اذا كنت تريد تقديم خدمة</string>
+    <string name="explain_user_type">اذا كنت تريد استخدام خدماتنا وطلب الفنيين الخاصين بنا</string>
+    <string name="explain_technical_type">اذا كنت بالفعل مسجل من قبل مزود خدمه من فضلك اضغط هنا للدخول كفنى</string>
+
+    <!--login activity-->
+    <string name="login_activity">تسجيل دخول</string>
+    <string name="email">البريد الالكترونى</string>
+    <string name="password">كلمه المرور</string>
+    <string name="new_account">حساب جديد</string>
+    <string name="forgot_password">نسيت كلمه المرور</string>
+    <string name="or">او</string>
+    <string name="sign_in_with">تسجيل الدخول بواسطه</string>
+
+
+
+    <!--forget pass-->
+    <string name="enter_your_email">ادخل اسم البريد الالكترونى</string>
+    <string name="describ_forgot_pass">اذا كنت قد نسيت كلمه المرور ادخل البريد الالكترونى لاستلام كود الى ايميلك الخاص به كلمه المرور</string>
+    <string name="send">ارسال</string>
+    <string name="click_here">اضغط هنا</string>
+    <string name="if_you_donot_receive_forgot">اذا لم تستلم الكود من فضلك</string>
+
+
+
+
+    <string name="no_connect">لا يوجد اتصال</string>
+    <string name="connect_snackbar">اتصال</string>
+    <string name="server_down">نعتذر عن عدم توافر مزود الخدمه حاليا</string>
+
+
+
+    <!--register activity-->
+
+    <string name="username_reg">اسم المستخدم</string>
+
+
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="confirm_password">تأكيد كلمه المرور</string>
+    <string name="mail">البريد الالكترونى</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="location_information">بيانات الاحداثيات</string>
+    <string name="address">العنوان</string>
+    <string name="neighborhood">الحى</string>
+    <string name="building_number">رقم المبنى</string>
+    <string name="apartment_number">رقم الشقه</string>
+    <string name="floor">الدور</string>
+    <string name="additional_phone">هاتف اضافى</string>
+    <string name="water_meter_number">رقم عداد المياه</string>
+    <string name="landmark">مكان مميز</string>
+    <string name="register">تسجيل</string>
+
+    <string name="valid_user">اسم المستخدم على الاقل 6 احرف</string>
+    <string name="valid_number">الرقم غير صحيح</string>
+    <string name="valid_email">الايميل غير صحيح</string>
+    <string name="valid_pass">كلمه المرور على الاقل 6 احرف</string>
+    <string name="valid_confirm">كلمتى المرور غير متطابقتين</string>
+    <string name="valid_address">العنوان لا يترك فارغا</string>
+    <string name="valid_neighborhood">الحى لا يترك فارغا</string>
+    <string name="valid_build">رقم المبنى لا يترك فارغا</string>
+    <string name="valid_location">الاحداثيات لابد تحديدها</string>
+    <string name="accept_policy_reg">يرجى الموافقة على شروط الاستخدام</string>
+
+
+
+    <!--activition activity-->
+    <string name="valid_activition">كود التفعيل لابد ان يكون 6 احرف</string>
+    <string name="activition_mobile_sent">كود التفعيل تم ارساله بنجاح</string>
+    <string name="i_agree_terms">أوافق على الشروط والأحكام</string>
+
+    <string name="done">انتهى</string>
+    <string name="terms_and_conditions">الشروط والاحكام</string>
+    <string name="reset_code">رمز استعاده كلمه المرور</string>
+    <string name="new_password">كلمه مرور جديده</string>
+    <string name="submit">تأكيد</string>\
+
+    <string name="new_password_request">طلب كلمه مرور جديده</string>
+    <string name="active">تنشيط</string>
+    <string name="enter_activition_code">ادخل رمز التفعيل</string>
+    <string name="you_will_receive_an_activation_code">سوف تستلم كود التفعيل الخاص بك على هاتفك وايميلك الخاص</string>
+
+    <string name="comp_nam">اسم الشركه</string>
+    <string name="licen_number">رقم الترخيص</string>
+
+    <string name="valid_license">رقم الترخيص لابد تحديده</string>
+    <string name="valid_compan_name">اسم الشركه لابد تحديده</string>
+
+    <string name="upload_license">رفع الترخيص</string>
+    <string name="upload_owner_id">رفع تحقيق الهويه</string>
+    <string name="suc_reg">تم التسجيل بنجاح</string>
+    <string name="sign_up_label">تسجيل جديد</string>
+    <string name="add_service_label">اضافه خدمه</string>
+    <string name="cancel">الغاء</string>
+
+
+    <!--navigations strings-->
+    <string name="username_str">اسم المستخدم</string>
+    <string name="make_order">طلب خدمه</string>
+    <string name="chng_lang">تغير اللغه</string>
+    <string name="chng_pass">تغير كلمه المرور</string>
+    <string name="remov_acc">حذف حسابى</string>
+    <string name="upd_profil">تحديث الحساب</string>
+    <string name="chos_country">اختر دوله</string>
+    <string name="my_req">طلباتى</string>
+    <string name="my_bills">فواتيرى</string>
+    <string name="notifications">اشعاراتى</string>
+    <string name="tickts">تذاكر</string>
+    <string name="abut_us">من نحن</string>
+    <string name="contct_us">تواصل معنا</string>
+    <string name="share">مشاركه</string>
+    <string name="privcy">سياسه الخصوصيه</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="servics">خدماتى</string>
+    <string name="technicans">فنيين</string>
+    <string name="new_orders">الطلبات الجديده</string>
+    <string name="home">الرئيسيه</string>
+    <string name="profile">الملف الشخصى</string>
+    <string name="new_str">جديد</string>
+    <string name="acccepted">موافقه</string>
+    <string name="refused">رفض</string>
+    <string name="finished">انتهى</string>
+    <string name="contact_us_txt">باستطاعتك التواصل مع المنظمه من خلال ارقامنا الهاتفيه او عنوان البريد الالكترونى ولا يوجد لدينا اي فروع اخرى</string>
+    <string name="confirem_decactive_txt">هل انت متاكد من حذف حسابك فى خدووم هووم. سوف تخسر جميع الطلبات والبيانات عند الموافقه</string>
+    <string name="personal_info"><u>تفاصيل شخصيه</u></string>
+    <string name="location_information_line"><u>تفاصيل العنوان</u></string>
+    <string name="select_coord_map">من فضلك اختر احداثيات</string>
+    <string name="suc_logout">تم تسجيل الخروج بنجاح</string>
+    <string name="succ_login">تم تسجيل الدخول بنجاح</string>
+    <string name="pass_chng_succ">تم تغير كلمه المورو بنجاح</string>
+    <string name="approved">مقبول</string>
+    <string name="parts">القطع</string>
+    <string name="quantity">الكميه</string>
+    <string name="search">أبحث....</string>
+    <string name="do_you_want_to_choose_services">هل تود اختيار خدمات</string>
+    <string name="now">الان</string>
+    <string name="later">لاحقاً</string>
+    <string name="bill_number">رقم الفاتورة</string>
+    <string name="order_number">رقم الطلب</string>
+    <string name="bill_date">تاريخ الفاتورة</string>
+    <string name="amount_of_bill">مبلغ الفاتورة</string>
+    <string name="bill_details">تفاصيل الفاتورة</string>
+    <string name="payment_status">حاله الدفع</string>
+    <string name="back">رجوع</string>
+    <string name="total">الاجمالى: </string>
+    <string name="bill_of_order">فاتوره الطلب</string>
+    <string name="number_of_order">رقم الطلب</string>
+    <string name="number_of_bill">رقم الفاتوره</string>
+    <string name="visit_fees">رسوم الزياره</string>
+    <string name="parts_fees">رسوم القطع</string>
+    <string name="additional_work_fees">رسوم اعمال اضافيه</string>
+    <string name="mobile_number">رقم الهاتف</string>
+    <string name="tecnical_name">اسم الفنى</string>
+    <string name="visit_date">تاريخ الزياره</string>
+    <string name="provider_name">اسم مزود الخدمه</string>
+    <string name="order_details">تفاصيل الطلب</string>
+    <string name="no_num_contact">لا ارقام مسجله</string>
+    <string name="kadom_contact_us">اتصل بنا</string>
+    <string name="no_email_client">لا يوجد مزودى بريد الكترونى مثبت</string>
+    <string name="send_email">ارسل بريد الكترونى…</string>
+    <string name="mess_contact_valid">الرساله على الاقل 10 خانات</string>
+    <string name="visit_us">زورنا</string>
+    <string name="comp_loc">العنوان</string>
+    <string name="about_khadoom_home">حول خدوووم هوم</string>
+    <string name="select_main_service">اختر خدمه رئيسيه</string>
+    <string name="select_country_and_city">اختر دوله ومدينه</string>
+    <string name="choose_country">اختر دوله</string>
+    <string name="country">الدوله</string>
+    <string name="city">المدينه</string>
+    <string name="change">تغير</string>
+    <string name="change_password">تغير كلمه السر</string>
+    <string name="old_password">كلمه المرور القديمه</string>
+    <string name="save">حفظ</string>
+    <string name="contact_with_us">تواصل معنا</string>
+    <string name="call">اتصل</string>
+    <string name="message">رساله</string>
+    <string name="write_your_message">اكتب رسالتك</string>
+    <string name="send_ticket">ارسل تذكره</string>
+    <string name="reason_of_ticket">سبب التذكره</string>
+    <string name="what_is_the_problem">ما هى المشكله ؟</string>
+    <string name="description">وصف</string>
+    <string name="describe_your_problem">اوصف مشكلتك</string>
+    <string name="upload_image">ارفع صوره</string>
+    <string name="order_information">بيانات الطلب</string>
+    <string name="order_description">وصف الطلب</string>
+    <string name="describe_your_order">اوصف طلبك</string>
+    <string name="order_type">نوع الطلب</string>
+    <string name="urgent">عاجل</string>
+    <string name="normal">عادى</string>
+    <string name="preferred_date">التاريخ المفضل</string>
+    <string name="data">التاريخ</string>
+    <string name="additional_parts_required">قطع اضافيه مطلوبه</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="send_order">ارسل طلب</string>
+    <string name="privacy_and_policy">السياسات والخصوصيه</string>
+    <string name="privacy">الخصوصيه</string>
+    <string name="location">العنوان:</string>
+    <string name="time">الوقت:</string>
+    <string name="service">الخدمه:</string>
+    <string name="update">تحديث</string>
+    <string name="creat_ticket">انشاء تذكره</string>
+    <string name="ticket_detail">تفاصيل التذكره</string>
+    <string name="chng_country">تغير الدوله</string>
+    <string name="edt_order">تعديل الطلب</string>
+    <string name="reply">الرد…</string>
+    <string name="ticket_is_closed">التذكره اغلقت</string>
+    <string name="more">المزيد</string>
+    <string name="new_teck">فنى جديد</string>
+    <string name="active_sms_word">لتفعيل حسابكم فى خدووم</string>
+    <string name="request_edit_cancel_msg">طلبك الان قيد المراجعه بامكانك تعديله او الغاوه</string>
+    <string name="edit">تعديل</string>
+    <string name="order_cancl_suc">تم الغاء الطلب بنجاح</string>
+    <string name="updt_sucs">تم التحديث بنجاح</string>
+    <string name="loc_permission_need">صلاحيه تحديد الموقع مطلوبه</string>
+    <string name="app_need_location_permission">هذا التطبيق يتطلب تحديد المكان من فضلك وافق على اعطاء الصلاحيه</string>
+    <string name="error_login_facebook">فشل فى الوصول الى الفيسبوك</string>
+    <string name="thank_for_rating">شكرا لتقيمك</string>
+    <string name="edit_order">تعديل الطلب</string>
+    <string name="ok">حسنا</string>
+    <string name="order_sent_sucs">تم ارسال الطلب بنجاح</string>
+    <string name="desc_must_10_least">الوصف على الاقل 10 احرف</string>
+    <string name="date_eql_biger_today">التاريخ لابد ان يساوى او بعد اليوم</string>
+    <string name="plz_choose_parts">من فضلك اختر قطع</string>
+    <string name="chose_service_activity">اختر خدمه</string>
+    <string name="make_order_activity">نقديم طلب</string>
+    <string name="add_tech_activity">اضافه فنى</string>
+    <string name="chose_tech">اختر فنى</string>
+    <string name="all_services">جميع الخدمات</string>
+    <string name="valid_ref_reason">اكتب سبب الرفض</string>
+    <string name="cost">التكلفه</string>
+    <string name="total_without">الاجمالى</string>
+    <string name="reason_of_refuse">سبب الرفض</string>
+    <string name="describe_the_reason_of_refuse">اشرح سبب الرفض</string>
+    <string name="deactivated">غير مفعل</string>
+    <string name="activated">مفعل</string>
+    <string name="main_services">الخدمات الرئيسيه</string>
+    <string name="sub_services">الخدمات الفرعيه</string>
+    <string name="cities">المدن</string>
+    <string name="order_number_with">رقم الطلب :</string>
+    <string name="feedback">رايك :</string>
+    <string name="provider_name_with">اسم المزود :</string>
+    <string name="parts_needed">القطع المطلوبه</string>
+    <string name="images">Images</string>
+    <string name="add_part_name">اضف اسم القطعه/الخدمه</string>
+    <string name="specialization">التخصص</string>
+    <string name="add">اضف</string>
+    <string name="discount_with">الخصم (%)</string>
+    <string name="write_discount_here">اكتب الخصم هنا</string>
+    <string name="calculate_total">احسب الاجمالى</string>
+    <string name="number">الرقم :</string>
+    <string name="parts_new_works">قطع / عمل جديد</string>
+    <string name="no_feedback">No Feedback</string>
+    <string name="reason">السبب</string>
+    <string name="falid_facebook">لا يمكن الاتصال بالفيسبوك حاليا</string>
+
+</resources>

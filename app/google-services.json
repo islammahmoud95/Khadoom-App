@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "715804759177",
+    "firebase_url": "https://khaddom-home.firebaseio.com",
+    "project_id": "khaddom-home",
+    "storage_bucket": "khaddom-home.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715804759177:android:d42debb66d8f01a1",
+        "android_client_info": {
+          "package_name": "com.redray.khadoomhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715804759177-33v8a6uavvmclqodvsigfvp3gtmplica.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.redray.khadoomhome",
+            "certificate_hash": "22b06f5bd269b7c225e87a6d19622fdbd97e753f"
+          }
+        },
+        {
+          "client_id": "715804759177-v42pir09i2ct73kolknbbrnr4qcil8sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOKhr_FRaXgNfdbnPKBzZF-322tTJdUJg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715804759177-v42pir09i2ct73kolknbbrnr4qcil8sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

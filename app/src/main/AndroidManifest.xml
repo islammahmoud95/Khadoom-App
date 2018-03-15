@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.redray.khadoomhome">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:name=".utilities.AppController"
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@drawable/khadoom_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/khadoom_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".all_users.Activites.Lang_Choose_activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Half_Half_theme" />
+        <activity
+            android:name=".all_users.Activites.Account_Type"
+            android:screenOrientation="portrait"
+            android:theme="@style/Half_Half_theme" />
+        <activity
+            android:name=".all_users.Activites.Login_Activity"
+            android:label="@string/login_activity"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_main_activ" />
+        <activity
+            android:name=".USER.Activities.Register_user_Activity"
+            android:label="@string/sign_up_label"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PROVIDER.Activities.Register_prov_Activity"
+            android:label="@string/sign_up_label"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".all_users.Activites.Forgot_Password"
+            android:screenOrientation="portrait"
+            android:theme="@style/Half_Half_theme" />
+        <activity
+            android:name=".all_users.Activites.MapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".USER.Activities.Activition_Mobile_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Half_Half_theme" />
+        <activity
+            android:name=".PROVIDER.Activities.Add_Service"
+            android:label="@string/add_service_label"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".all_users.Activites.Privacy_Activity"
+            android:label="@string/privacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".USER.Activities.Orders_Sub_Activity"
+            android:label="@string/chose_service_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".USER.Activities.Make_Order_Activity"
+            android:label="@string/make_order_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".all_users.Activites.Change_Password"
+            android:label="@string/change_password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".all_users.Activites.About_Us"
+            android:label="@string/about_khadoom_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".all_users.Activites.Contact_US"
+            android:label="@string/contact_with_us"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".all_users.Activites.Remove_Account"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".USER.Activities.Edit_Order_Activity"
+            android:label="@string/edt_order"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".USER.Activities.Change_Country_Activity"
+            android:label="@string/chng_country"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".USER.Activities.Update_Profile_Activity"
+            android:label="@string/upd_profil"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tickets.Activities.Main_Get_Tickets"
+            android:label="@string/tickts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tickets.Activities.Ticket_details"
+            android:label="@string/ticket_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tickets.Activities.Create_new_Ticket"
+            android:label="@string/creat_ticket"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".USER.Activities.Bill_Details_user"
+            android:label="@string/bill_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".USER.Activities.Order_View_Details"
+            android:label="@string/order_details"
+            android:screenOrientation="portrait" />
+
+        <!-- //this for firebase notifications -->
+
+        <service
+            android:name=".utilities.MyFirebaseMessagingService"
+            android:exported="false"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".utilities.MyFirebaseInstanceIDService"
+            android:exported="false"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+             Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/khadoom_logo" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity
+            android:name=".PROVIDER.Activities.Order_Details"
+            android:label="@string/order_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PROVIDER.Activities.Get_Technicals"
+            android:label="@string/technicans"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PROVIDER.Activities.Add_new_Tecknical"
+            android:label="@string/add_tech_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PROVIDER.Activities.Choose_Technical"
+            android:label="@string/chose_tech"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PROVIDER.Activities.Get_All_Services"
+            android:label="@string/all_services"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PROVIDER.Activities.Update_Profile_prov_Activity"
+            android:label="@string/upd_profil"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Technical.Activities.Order_Details_tech"
+            android:label="@string/order_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PROVIDER.Activities.Get_Bills_prov_activity"
+            android:label="@string/my_bills"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PROVIDER.Activities.Bill_Details_prov"
+            android:label="@string/bill_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Technical.Activities.Bill_Details_tech"
+            android:label="@string/bill_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Technical.Activities.Add_Additional_Part"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".USER.Activities.Post_Rating_Order"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".PROVIDER.Activities.Rating_View_Prov"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".all_users.Activites.Notifications_History_Act"
+            android:label="@string/notifications"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".utilities.ImageLoader.ImageGesture"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".utilities.IncomingSms"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".all_users.Activites.Genral_Notify_detail_activ"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.Dialog"/>
+
+
+        <!-- for map -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_Api_Key" />
+
+        <!-- for google plus -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- facebook social -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="11c2c55512ef4a33677866ec07535cba4b1c4506" />
+
+
+    </application>
+
+</manifest>

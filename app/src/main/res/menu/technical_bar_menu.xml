@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_blue"
+    app:bbn_badgeColor = "@color/red_light"
+    app:bbn_itemAnimationDuration = "10"
+    app:bbn_alwaysShowLabels="false"
+    app:bbn_itemColorActive="@color/white"
+    app:bbn_itemColorInactive="@color/off_white"
+    app:bbn_rippleColor="#ccffffff"
+    >
+    <item
+        android:id="@+id/new_orders"
+        android:color="@color/dark_blue"
+        android:icon="@drawable/address_logo"
+        android:title="@string/new_str" />
+    <item
+        android:id="@+id/Finished"
+        android:color="@color/light_blue"
+        android:icon="@drawable/tab_myreq"
+        android:title="@string/finished" />
+    <item
+        android:id="@+id/Bills"
+        android:color="@color/dark_blue"
+        android:icon="@drawable/nav_bills"
+        android:title="@string/my_bills" />
+    
+</menu>
+
+
+

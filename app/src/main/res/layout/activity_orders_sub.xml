@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.redray.khadoomhome.USER.Fragments.Orders_Fragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/orders_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:background="@color/gray_light"
+        android:layout_marginTop="5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.redray.khadoomhome.PROVIDER.fragments.New_Orders_frag">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/get_orders_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_light" />
+
+</FrameLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_blue"
+    app:bbn_badgeColor = "@color/red_light"
+    app:bbn_itemAnimationDuration = "10"
+    app:bbn_alwaysShowLabels="false"
+    app:bbn_itemColorActive="@color/white"
+    app:bbn_itemColorInactive="@color/off_white"
+    app:bbn_rippleColor="#ccffffff">
+
+    <item
+        android:id="@+id/new_order"
+        android:color="@color/dark_blue"
+        android:icon="@drawable/new_bar"
+        android:title="@string/new_str" />
+    <item
+        android:id="@+id/Acccepted"
+        android:color="@color/light_blue"
+        android:icon="@drawable/approved_bar"
+        android:title="@string/acccepted" />
+    <item
+        android:id="@+id/Refused"
+        android:color="@color/dark_blue"
+        android:icon="@drawable/refused_bar"
+        android:title="@string/refused" />
+
+    <item
+        android:id="@+id/Finished"
+        android:color="@color/dark_blue"
+        android:icon="@drawable/finished_bar"
+        android:title="@string/done" />
+
+</menu>
+
+
+

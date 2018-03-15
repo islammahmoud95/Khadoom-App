@@ -1,0 +1,277 @@
+<resources>
+
+    <string name="google_maps_Api_Key" translatable="false">AIzaSyAmgIqZnOrelgQZfcSEAyCd2iK3-9MVkKU</string>
+    <string name="facebook_app_id" translatable="false">1932373016776746</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1932373016776746</string>
+
+
+    <string name="app_name">Khadoom</string>
+    <string name="splash_describ">khadoom  Always In your pocket .....</string>
+    <string name="splash_title">Welcome in Khadoom</string>
+
+
+    <string name="ok_dialog">OK</string>
+
+
+    <string name="lang_str">Language</string>
+
+    <string name="select">Select</string>
+    <string name="user_type">User</string>
+    <string name="explain_user_type">If you want to use Service and demand our technicals</string>
+    <string name="provider_type">Provider</string>
+    <string name="explain_provider_type">If you want to Provide services</string>
+    <string name="technical_type">Technical</string>
+    <string name="explain_technical_type">If you already registered by provider please press here to login as technical</string>
+
+
+    <string name="login_activity">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_account">New Account</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="or">OR</string>
+    <string name="sign_in_with">Sign In With</string>
+
+
+    <!--forgot pass activity-->
+    <string name="enter_your_email">Enter your Email Address</string>
+    <string name="describ_forgot_pass">If You forgot your password send your address to recive an code in your mail to add new password</string>
+    <string name="send">Send</string>
+    <string name="click_here">Click Here</string>
+    <string name="if_you_donot_receive_forgot">If you donot receive the code please</string>
+
+
+    <string name="no_connect">No Connection</string>
+    <string name="connect_snackbar">Connect</string>
+    <string name="server_down">Sorry server is Down</string>
+
+    <!--register activity-->
+    <string name="username_reg">UserName</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="mail">Mail</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="location_information">Location Information</string>
+    <string name="address">Address</string>
+    <string name="neighborhood">Neighborhood</string>
+    <string name="building_number">Building Number</string>
+    <string name="apartment_number">Apartment Number</string>
+    <string name="floor">Floor</string>
+    <string name="additional_phone">Additional Phone</string>
+    <string name="water_meter_number">Water Meter Number</string>
+    <string name="landmark">LandMark</string>
+    <string name="register">Register</string>
+
+    <string name="valid_user">User Name Must be At Least 6 Char</string>
+    <string name="valid_number">Number Not Valid</string>
+    <string name="valid_email">Email Not Valid</string>
+    <string name="valid_pass">Password Must be at least 6 Char</string>
+    <string name="valid_confirm">Passwords Not Matched</string>
+    <string name="valid_address">Address Must be Not Null</string>
+    <string name="valid_neighborhood">Neighborhood Must be not Null</string>
+    <string name="valid_build">Building Number Must be not Null</string>
+    <string name="valid_location">Locations Must be Defined</string>
+    <string name="open_gps_msg">please open gps provider</string>
+    <string name="yes_gps_btn">Yes</string>
+    <string name="no_gps_btn">No</string>
+    <string name="plz_wait">Please Wait</string>
+    <string name="select_img">Select Picture</string>
+    <string name="accept_policy_reg">Please Accept the Terms of Use</string>
+
+
+    <!--activition activity-->
+    <string name="valid_activition">Activation Code Must be 6 char</string>
+    <string name="activition_mobile_sent">Activation Code sent Successfully</string>
+    <string name="i_agree_terms">I Agree terms and conditions</string>
+
+    <string name="done">Done</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="reset_code">Reset Code</string>
+    <string name="new_password">New Password</string>
+    <string name="submit">Submit</string>
+    <string name="new_password_request">New Password Request</string>
+    <string name="active">Active</string>
+    <string name="enter_activition_code">Enter Activation Code</string>
+    <string name="you_will_receive_an_activation_code">You Will receive an Activation Code in Your Mobile phone and your Email Address</string>
+    <string name="comp_nam">Company Name</string>
+    <string name="licen_number">Licences Number</string>
+    <string name="valid_license">License Number Must Be Defined</string>
+    <string name="valid_compan_name">Company NAME Must Be Defined</string>
+    <string name="upload_license">Upload License</string>
+    <string name="upload_owner_id">Upload Owner ID</string>
+    <string name="suc_reg">Successfully Registered</string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="add_service_label">Add Service</string>
+    <string name="cancel">Cancel</string>
+
+
+    <!--navigations strings-->
+    <string name="username_str">UserName</string>
+    <string name="make_order">Make Order</string>
+    <string name="chng_lang">Change Language</string>
+    <string name="chng_pass">Change Password</string>
+    <string name="remov_acc">Remove my Account</string>
+    <string name="upd_profil">Update Profile</string>
+    <string name="chos_country">Choose Country</string>
+    <string name="my_req">My Requests</string>
+    <string name="my_bills">My Bills</string>
+    <string name="notifications">Notifications</string>
+    <string name="tickts">Tickets</string>
+    <string name="abut_us">About US</string>
+    <string name="contct_us">Contact US</string>
+    <string name="share">Share</string>
+    <string name="privcy">Privacy</string>
+    <string name="log_out">Log Out</string>
+    <string name="servics">Services</string>
+    <string name="technicans">Technicians</string>
+    <string name="new_orders">New Orders</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="new_str">New</string>
+    <string name="acccepted">Acccepted</string>
+    <string name="refused">Refused</string>
+    <string name="finished">Finished</string>
+
+
+    <string name="contact_us_txt">You Can to Contact with our orginzation from our phone numbers and our Email address we don\'t have any other branches</string>
+    <string name="confirem_decactive_txt">Are You Sure you will remove Khadoom Account. You will lose all your data and orders</string>
+    <string name="personal_info"><u>Personal Information</u></string>
+    <string name="location_information_line"><u>Location Information</u></string>
+    <string name="select_coord_map">Plase Select Coordinates</string>
+    <string name="suc_logout">Successfully logout</string>
+    <string name="succ_login">Successfully Login</string>
+    <string name="pass_chng_succ">Password Changed Successful</string>
+
+
+    <string name="approved">Approved</string>
+    <string name="parts">Parts</string>
+    <string name="quantity">Quantity</string>
+    <string name="search">Search....</string>
+    <string name="do_you_want_to_choose_services">Do You Want to Choose Services?</string>
+    <string name="now">Now</string>
+    <string name="later">Later</string>
+    <string name="bill_number">Bill Number</string>
+    <string name="order_number">Order Number</string>
+    <string name="bill_date">Bill Date</string>
+    <string name="amount_of_bill">Amount of Bill</string>
+    <string name="bill_details">Bill Details</string>
+    <string name="payment_status">Payment status</string>
+    <string name="total">Total:</string>
+    <string name="back">BACK</string>
+    <string name="bill_of_order">Bill Of Order</string>
+    <string name="number_of_order">Number Of Order</string>
+    <string name="number_of_bill">Number Of Bill</string>
+    <string name="visit_fees">Visit Fees</string>
+    <string name="parts_fees">Parts Fees</string>
+    <string name="additional_work_fees">Additional Work Fees</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="tecnical_name">Tecnical Name</string>
+    <string name="visit_date">Visit Date</string>
+    <string name="provider_name">Provider Name</string>
+    <string name="order_details">Order Details</string>
+    <string name="no_num_contact">No Numbers Recorded</string>
+    <string name="kadom_contact_us">Contact us</string>
+    <string name="no_email_client">There are no email clients installed.</string>
+    <string name="send_email">Send email…</string>
+    <string name="mess_contact_valid">Message at Least 10 char</string>
+    <string name="visit_us">Visit US</string>
+    <string name="comp_loc">Locations</string>
+    <string name="about_khadoom_home">About Khadoom</string>
+    <string name="select_main_service">Select Main Service</string>
+    <string name="select_country_and_city">Select Country and City</string>
+    <string name="choose_country">Choose Country</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="change">Change</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="save">Save</string>
+    <string name="contact_with_us">Contact With US</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="write_your_message">Write Your Message</string>
+    <string name="send_ticket">Send Ticket</string>
+    <string name="reason_of_ticket">Reason of Ticket</string>
+    <string name="what_is_the_problem">What is the Problem</string>
+    <string name="description">Description</string>
+    <string name="describe_your_problem">Describe Your Problem</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="order_information">Order Information</string>
+    <string name="order_description">Order Description</string>
+    <string name="describe_your_order">Describe Your Order</string>
+    <string name="order_type">Order Type</string>
+    <string name="urgent">Urgent</string>
+    <string name="normal">Normal</string>
+    <string name="preferred_date">Preferred Date</string>
+    <string name="data">Data</string>
+    <string name="additional_parts_required">Additional Parts Required</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="send_order">Send Order</string>
+    <string name="privacy_and_policy">Privacy and Policy</string>
+    <string name="privacy">privacy</string>
+    <string name="location">Location:</string>
+    <string name="time">Time:</string>
+    <string name="service">Service:</string>
+    <string name="update">Update</string>
+    <string name="creat_ticket">Create Ticket</string>
+    <string name="ticket_detail">Ticket Details</string>
+    <string name="chng_country">Change Country</string>
+    <string name="edt_order">Edit Order</string>
+    <string name="reply">Reply</string>
+    <string name="ticket_is_closed">Ticket is Closed</string>
+
+    <string name="more">More</string>
+    <string name="new_teck">New Teck</string>
+
+
+    <string name="valid_ref_reason">Please Write Reason of Refused</string>
+    <string name="cost">Cost</string>
+    <string name="total_without">Total</string>
+    <string name="reason_of_refuse">Reason Of Refuse</string>
+    <string name="describe_the_reason_of_refuse">Describe the Reason of Refuse</string>
+
+
+    <string name="deactivated">Deactivated</string>
+    <string name="activated">Activated</string>
+    <string name="main_services">Main Services</string>
+    <string name="sub_services">Sub Services</string>
+    <string name="cities">Cities</string>
+    <string name="order_number_with">Order Number :</string>
+    <string name="feedback">Feedback:</string>
+    <string name="provider_name_with">Provider Name :</string>
+    <string name="parts_needed">Parts Needed</string>
+    <string name="images">Images</string>
+    <string name="add_part_name">Add Part\\service</string>
+    <string name="specialization">Specialization</string>
+    <string name="add">ADD</string>
+    <string name="discount_with">Discount (%)</string>
+    <string name="write_discount_here">Write Discount here</string>
+    <string name="calculate_total">Calculate Total</string>
+    <string name="active_sms_word">Active your khadoom</string>
+    <string name="request_edit_cancel_msg">Your Request Now in Waiting You Can edit your request or cancel it</string>
+    <string name="edit">Edit</string>
+    <string name="order_cancl_suc">Order Canceled Successfully</string>
+    <string name="updt_sucs">Update Successfully</string>
+    <string name="loc_permission_need">Location Permission Needed</string>
+    <string name="app_need_location_permission">This app needs the Location permission, please accept to use location functionality</string>
+    <string name="error_login_facebook">error to Login Facebook</string>
+    <string name="thank_for_rating">Thank You For Rating</string>
+    <string name="edit_order">Edit Order</string>
+    <string name="ok">OK</string>
+    <string name="order_sent_sucs">Order Sent Successfully</string>
+    <string name="desc_must_10_least">Description must be at least 10 char</string>
+    <string name="date_eql_biger_today">date must be after or equal today</string>
+    <string name="plz_choose_parts">Please Choose Parts</string>
+    <string name="chose_service_activity">Choose Service</string>
+    <string name="make_order_activity">Make Order</string>
+    <string name="add_tech_activity">Add Technical</string>
+    <string name="chose_tech">Choose Technical</string>
+    <string name="all_services">All Services</string>
+    <string name="number">Number :</string>
+    <string name="parts_new_works">Parts / New Works</string>
+    <string name="no_feedback">لا يوجد ملاحظات</string>
+    <string name="reason">Reason</string>
+    <string name="falid_facebook">Cannot Connect to Facebook right now</string>
+
+</resources>

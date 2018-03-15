@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="circle_image_width">60dp</dimen>
+    <dimen name="circle_image_height">60dp</dimen>
+
+    <dimen name="text_default">23sp</dimen>
+    <dimen name="text_title">28sp</dimen>
+    <dimen name="text_small">21sp</dimen>
+    <dimen name="text_xsmall">16sp</dimen>
+    <dimen name="text_big">40sp</dimen>
+</resources>

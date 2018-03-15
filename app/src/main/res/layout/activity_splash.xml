@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.redray.khadoomhome.Splash_Activity">
+
+    <TextView
+        android:id="@+id/splash_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/splash_title"
+        android:textSize="19sp"
+        android:textColor="@android:color/white"
+        android:layout_weight="0.5"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <ImageView
+            android:id="@+id/splash_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splash_logo_shape"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"/>
+
+
+        <ImageView
+            android:id="@+id/splash_rectangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splash_logo_bar"
+            android:layout_alignBottom="@+id/splash_circle"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/frame_txt_about"
+        android:layout_gravity="center"
+        android:layout_weight="0.5">
+
+        <com.redray.khadoomhome.utilities.TypewriterView
+            android:id="@+id/splash_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:windowSoftInputMode="stateHidden"
+            android:textColor="@color/white_one"
+            android:layout_gravity="center" />
+
+        <!-- Overlay a view to prevent user from focusing the typewriter edit text view -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:inputType="text"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:background="@android:color/transparent"/>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
